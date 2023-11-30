@@ -1,7 +1,7 @@
 # Build a docker image from latest YaCy sources on Alpine Linux
 
 # Base image : latest stable official jdk 8 image from Docker based on Alpine Linux
-FROM openjdk:8-alpine
+FROM openjdk:22-ea-22
 
 # trace java version
 RUN java -version
